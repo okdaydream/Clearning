@@ -1,4 +1,14 @@
+/**********************************************
+* Author	:	qiuguizhu
+* Date		: 	2017/8/18
+* Description	:	Test struct
+***********************************************/
+
 #include<stdio.h>
+
+struct 
+
+/*function ptr
 struct mtd_info
 {
 	int (*read_oob) (struct mtd_info *mtd, int from,
@@ -29,4 +39,4 @@ int mtd_read_oob(struct mtd_info *mtd, int from, struct mtd_oob_ops *ops)
 int main()
 {
 	mtd_read_oob(ops_a, 3, &ops_a);	
-}
+}*/
